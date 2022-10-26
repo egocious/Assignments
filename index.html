@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Page</title>
+
+   
+</head>
+<body>
+        <!---Input container-->
+
+    <div>
+        <h1>WELCOME TO ZURI TRAINING</h1>
+        <form action="login.html" method="get">
+            <h2>Create an Account</h2>
+
+        <div class="names"> 
+            <div class="labelclass"> 
+                <label class="fname" for="First Name">First Name</label>
+                <input type="text" id="Firstname" name="Fname"/>
+                <p class="">Please fill out this field.</p>
+            </div>
+            <div class="labelclass">
+                <label class="lname" for="Last Name">Last Name</label>
+                <input type="text" id="Lastname" name="lname"/>
+                <p class="">Please fill out this field.</p>
+            </div>
+        </div>
+
+        <div class="names1">  
+            <div class="labelclass">
+                <label class="phone" for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phonetel"/>
+            </div>
+            <div class="labelclass">
+                <label class="email" for="email">Email</label>
+                <input type="email" id="email" name="emailadd"/>
+                <p class="">Please fill out this field.</p>
+            </div>
+        </div>
+
+            <div class="selectclass">
+                <label class="gender" for="gender">Gender</label>
+                <select id="gender" class="">
+                    <option selected>Select an option</option>
+                    <option value='boy'>Male</option>
+                    <option value='girl'>Female</option>
+                </select>
+            </div>
+            <div class="selectclass">
+                <label class="dofb" for="date">Date of Birth</label>
+                <input type="date" id="date" name="datetime" placeholder="dd/mm/yyyy"/>
+            </div>
+            <div class="selectclass">
+                <label class="color" for="color">Favourite color</label>
+                <select id="color" class="">
+                    <option selected>Select an option</option>
+                    <option value='red'>Red</option>
+                    <option value='Yellow'>Yellow</option>
+                    <option value='pink'>Pink</option>
+                    <option value='blue'>Blue</option>
+                    <option value='purple'>Purple</option>  
+                    <option value='orange'>Orange</option>
+                    <option value='green'>Green</option>
+                </select>
+            </div>
+            <div class="passcode">  
+            <div class="labelclass">
+                <label class="password" for="email">Password</label>
+                <input type="password" id="password"/>
+                <p class="">Please fill out this field.</p>
+            </div>
+            <div class="labelclass">
+                <label class="confirmed" for="password">Confirm password</label>
+                <input type="password" id="confirm"/>
+                <p class="">Please fill out this field.</p>
+            </div>
+            </div>
+
+            <div class="buttons"> 
+                <button type="submit"  class="buttonlike">Register</button>
+
+                <p class="account">Already have an account? <a href="login.html">Log in</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
