@@ -1,0 +1,516 @@
+
+         body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(221, 187, 132);
+
+         }
+         nav ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            list-style: none;
+            margin-top: 3rem;
+                 }
+
+        a  {
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+        }
+
+         
+         main {
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-around;
+            list-style: none; 
+            margin:2.5rem 10rem;
+            padding-left:2rem;
+            
+         }
+
+         .name{
+            
+            font-size: 3rem;
+            font-weight: bolder;
+            font-family: 'Quicksand', sans-serif;
+         }
+
+         .bio1  {
+            margin-right: 2rem;
+            line-height: 1.8rem;
+            padding: 2rem;
+         }
+         .bio {
+            font-size: large;
+            padding-bottom: 7rem;
+            font-family: 'Montserrat';
+            font-size: 18px;
+        }
+
+        main ul  {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: left;
+            list-style: none;
+            }
+        main li   {
+           margin-right: 1rem;
+           font-family: 'Montserrat';
+           
+            }
+         .at   {
+            font-size: larger;
+            font-weight:700 ;
+            margin-bottom: 1rem;
+           
+            }
+        img  {
+            height: 450px;
+            width: 450px;
+            margin: .5rem .5rem;
+            border: none;
+            border-radius: 10px;
+        }
+
+        footer  {
+            text-align: center;
+            font-weight: 500;
+            padding-bottom: .5rem;
+        }
+        
+        .fa-instagram  {
+            font-size: 25px;
+            color: black;
+            margin-right: .5rem;
+        }  
+        
+        .fa-instagram:hover  {
+            cursor: pointer;
+            color: white;
+        }               
+        
+        .fa-facebook  {
+            font-size: 25px;
+            color: black;
+            margin-right: .5rem;
+        }  
+        
+        .fa-facebook:hover  {
+            cursor: pointer;
+            color: white;
+        }               
+
+        .fa-linkedin  {
+            font-size: 25px;
+            color: black;
+            margin-right: .5rem;
+        }  
+        
+        .fa-linkedin:hover  {
+            cursor: pointer;
+            color: white;
+        }               
+
+        .fa-twitter  {
+            font-size: 25px;
+            color: black;
+            margin-right: .5rem;
+        }  
+        
+        .fa-twitter:hover  {
+            cursor: pointer;
+            color: white;
+        }               
+    
+       <!--------->
+       about me
+       ------------
+
+       .header  {
+           background-color: rgb(221, 187, 132);
+           padding: 0.2rem;
+       }
+     
+       a  {
+           text-decoration: none;
+           color: black;
+           font-weight: 500;
+       }
+
+       .about  {
+           padding-right: 25rem;
+           font-family: 'Inspiration', cursive;
+           letter-spacing: .3rem;
+           font-size: 1.8rem;
+       }
+
+       main  {
+           margin: 1.6em 5rem 0.8rem 5rem;
+       }
+
+       .mylife  {
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: center;
+           list-style: none;
+       }
+
+       .mystory  {
+           margin: 0rem 2rem;
+       }
+
+       img  {
+           width: 380px;
+           height: 500px;
+       }
+       .mystory ul, p  {
+           font-size: larger;
+       }
+
+       footer  {
+           text-align: center;
+           font-weight: 500;
+           padding: 0;
+           margin: 0;
+       }
+
+       <!--------->
+       service
+       ------------
+
+
+
+
+          .header  {
+            background-color: rgb(221, 187, 132);
+            border: none;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding-top: 1rem;
+         }
+         nav a  {
+            text-decoration: none;
+            color: whitesmoke;
+         }
+
+        .title {
+            text-align: center;
+            font-size: larger;
+            font-weight: 700;
+            margin-top: 0rem;
+            padding-bottom: 0.1rem;
+            color: white;
+        }
+        .title p  {
+            margin-top: -1rem;
+
+        }
+
+        .rowone, .rowtwo  {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            list-style: none;
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .rowone p{
+            margin-top: 0rem;
+        }
+
+        footer  {
+            background-color: rgb(221, 187, 132);
+            text-align: center;
+        }
+
+        button  {
+            margin: 1.5rem;
+            padding: 0.7rem 3rem;
+            background-color: black;
+            cursor: pointer;
+            color: aliceblue;
+            border-radius: 20px;
+        }
+
+        button a  {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+        button:hover  {
+            background-color: white;
+            text-decoration: none;
+        }
+        button a:hover {
+            color:rgb(221, 187, 132);
+            font-weight: 900;
+        }
+
+        .fa-laptop  {
+            font-size: 2rem;
+            color: black;
+            background-color:rgb(221, 187, 132);
+            padding: .7rem .8rem;
+            border-radius: 100%;
+
+        }
+        .fa-network-wired{
+            font-size: 3rem;
+            color: black;
+            background-color:rgb(221, 187, 132);
+            padding: .5rem 1rem;
+            border-radius: 100%;
+            
+        }
+
+        .fa-laptop-file  {
+            font-size: 3rem;
+            color: black;
+            background-color:rgb(221, 187, 132);
+            padding: .5rem 1rem;
+            border-radius: 100%;
+        }
+
+        .fa-python  {
+            font-size: 3rem;
+            color: black;
+            background-color:rgb(221, 187, 132);
+            padding: .5rem 1rem;
+            border-radius: 100%;
+        }
+
+        .fa-html5  {
+            font-size: 3rem;
+            color: black;
+            background-color:rgb(221, 187, 132);
+            padding: .5rem 1rem;
+            border-radius: 100%;  
+        }
+
+        .fa-database  {
+            font-size: 3rem;
+            color: black;
+            background-color:rgb(221, 187, 132);
+            padding: .5rem 1rem;
+            border-radius: 100%;
+        }
+
+        .card  {
+            margin: 0rem 2.5rem;
+        }
+
+
+
+        <!--------->
+        projects
+        ------------
+        .header  {
+            background-color: rgb(221, 187, 132);
+            padding: 0.4rem;
+        }
+       
+
+
+        a  {
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+        }
+
+        section  {
+            margin: 0rem 5rem;
+            text-align: center;
+        }
+        .card  {
+            border: .5px solid grey;
+            margin: 1rem 1rem;
+            padding: 0rem 1.5rem 2rem 1.5rem;
+        }
+
+        .pro_body  {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            list-style: none;
+            margin-top: 3rem;
+        }
+        .pro_body1  {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            list-style: none;
+            margin-top: 3rem;
+        }
+      
+        button  {
+            padding: 0.7rem 3rem;
+            background-color: rgb(221, 187, 132);
+            cursor: pointer;
+            color: whitesmoke;
+            border-radius: 20px;
+        }
+
+        footer  {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 500;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+    
+
+        <!--------->
+       contact
+       ------------
+
+        body  {
+            background-color: rgb(221, 187, 132);
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            list-style: none;
+
+         }
+         li a {
+            text-decoration: none;
+            color: black;
+         }
+        
+        .contain  {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 4rem;
+        }
+        .firstpage {
+            background-color: black;
+            padding: 6.5rem 6.5rem;
+        }
+
+        .firstpage p {
+            color: white;
+            font-size: 3rem;
+            font-weight: bolder;
+            padding-top: 0rem;
+            text-align: center;
+            margin: 2rem 2rem;
+            font-family: 'Dancing Script', cursive;
+         }
+
+
+         .secondpage {
+            background-color: whitesmoke;
+            padding-bottom: 4rem;
+         }
+
+         .secondpage p{
+            font-size: xx-large;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+         .secForm  {
+            margin: 1rem 2rem;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 2rem;
+            padding-bottom: 5rem;
+         }
+         form  {
+            margin-top: 2rem;
+            margin-left: 1.8rem;
+            background-color: whitesmoke;
+         }
+         input {
+            padding: 0.5rem 0.5rem;
+            border: none;
+            border-bottom: 2px solid black;
+            color: black;
+            font-size: medium;
+            font-weight: 500;
+            background-color: whitesmoke;
+         }
+         input:focus  {
+          background-color: lightblue;
+          border-bottom: 2px solid #555;
+         }
+      
+         button{
+            margin: 2rem;
+            padding:0.5rem 4rem;
+            background-color: black;
+            cursor: pointer;
+            color: whitesmoke;
+            border-radius: 20px;}
+
+            button a {
+                color: white;
+                text-decoration: none;
+            }
+
+         .footer  {
+            margin-top: 1rem;
+            margin-right: 1.8rem;
+         }
+         .footer p {
+            font-size: small;
+         }
+         .lagos {
+            margin-top: -1.5rem;
+            margin-left: -3.5rem;
+         }
+         .email {
+            margin-top: -3rem;
+            margin-bottom: 5rem;    
+         }
+         h3  {
+            word-spacing: 2px;
+         }
+         
+    
+         <!--------->
+         talk
+         ------------
+    
+        .backg  {
+            background-color: rgb(221, 187, 132);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1  {
+            font-size: 3.5rem;
+            color: white;
+        }
+        p  {
+            font-size: 2rem;
+            color: white;
+        }
+        button{
+            margin-bottom: 1rem;
+            padding: 1rem 4rem;
+            background-color: white;
+            cursor: pointer;
+            color: whitesmoke;
+            border: none;
+            border-radius: 20px;}
+
+            button a {
+                color: black;
+                text-decoration: none;
+            }

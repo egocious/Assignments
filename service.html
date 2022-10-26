@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ca2c6d7bc.js" crossorigin="anonymous"></script>
+    <title>Service Page</title>
+    <style>
+        body  {
+            margin: 0;
+            padding: 0;
+            color: #555;
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            list-style: none;
+         }
+         .header  {
+            background-color: rgb(221, 187, 132);
+            border: none;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            padding-top: 1rem;
+         }
+         nav a  {
+            text-decoration: none;
+            color: whitesmoke;
+         }
+
+        .title {
+            text-align: center;
+            font-size: larger;
+            font-weight: 700;
+            margin-top: 0rem;
+            padding-bottom: 0.1rem;
+            color: white;
+        }
+        .title p  {
+            margin-top: -1rem;
+
+        }
+
+        .rowone, .rowtwo  {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            list-style: none;
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .rowone p{
+            margin-top: 0rem;
+        }
+
+        footer  {
+            background-color: rgb(221, 187, 132);
+            text-align: center;
+        }
+
+        button  {
+            margin: 1.5rem;
+            padding: 0.7rem 3rem;
+            background-color: black;
+            cursor: pointer;
+            color: aliceblue;
+            border-radius: 20px;
+        }
+
+        button a  {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+        button:hover  {
+            background-color: white;
+            text-decoration: none;
+        }
+        button a:hover {
+            color:rgb(221, 187, 132);
+            font-weight: 900;
+        }
+
+        .fa-laptop  {
+            font-size: 2rem;
+            color: black;
+            background-color:rgb(221, 187, 132);
+            padding: .7rem .8rem;
+            border-radius: 100%;
+
+        }
+        .fa-network-wired{
+            font-size: 3rem;
+            color: black;
+            background-color:rgb(221, 187, 132);
+            padding: .5rem 1rem;
+            border-radius: 100%;
+            
+        }
+
+        .fa-laptop-file  {
+            font-size: 3rem;
+            color: black;
+            background-color:rgb(221, 187, 132);
+            padding: .5rem 1rem;
+            border-radius: 100%;
+        }
+
+        .fa-python  {
+            font-size: 3rem;
+            color: black;
+            background-color:rgb(221, 187, 132);
+            padding: .5rem 1rem;
+            border-radius: 100%;
+        }
+
+        .fa-html5  {
+            font-size: 3rem;
+            color: black;
+            background-color:rgb(221, 187, 132);
+            padding: .5rem 1rem;
+            border-radius: 100%;  
+        }
+
+        .fa-database  {
+            font-size: 3rem;
+            color: black;
+            background-color:rgb(221, 187, 132);
+            padding: .5rem 1rem;
+            border-radius: 100%;
+        }
+
+        .card  {
+            margin: 0rem 2.5rem;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="header">  
+    <nav>  
+        <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="aboutMe.html">ABOUT ME</a></li>
+            <li><a href="project.html">PROJECTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="title">  
+        <h2>My Services</h2>
+        <p>I offer a variety of services to take care of your web development needs.</p>
+    </div>
+    </div>
+
+
+
+    <div class="service">
+        <div class="rowone"> 
+
+            <div class="card">  
+                <i class="fa-solid fa-laptop"></i>
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="card"> 
+                <i class="fa-light fa-network-wired"></i>
+            <h3>Ecommerce</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua </p>
+            </div>
+
+            <div class="card">
+                <i class="fa-regular fa-laptop-file"></i>
+            <h3>Web Design</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna alique.</p>
+            </div>
+        </div>
+
+        <div class="rowtwo"> 
+            <div class="card">   
+            <i class="fa-brands fa-python"></i>
+            <h3>Python</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-brands fa-html5"></i>
+            <h3>HTML/CSS</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-light fa-database"></i>
+            <h3>mySQL</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <button type="button"><a href="project.html">LEARN MORE ...</a></button>
+    </footer>
+</body>
+</html>

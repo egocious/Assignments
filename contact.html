@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Contact Form</title>
+    <style>
+        body  {
+            background-color: rgb(221, 187, 132);
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            list-style: none;
+
+         }
+         li a {
+            text-decoration: none;
+            color: black;
+         }
+        
+        .contain  {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 4rem;
+        }
+        .firstpage {
+            background-color: black;
+            padding: 6.5rem 6.5rem;
+        }
+
+        .firstpage p {
+            color: white;
+            font-size: 3rem;
+            font-weight: bolder;
+            padding-top: 0rem;
+            text-align: center;
+            margin: 2rem 2rem;
+            font-family: 'Dancing Script', cursive;
+         }
+
+
+         .secondpage {
+            background-color: whitesmoke;
+            padding-bottom: 4rem;
+         }
+
+         .secondpage p{
+            font-size: xx-large;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+         .secForm  {
+            margin: 1rem 2rem;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 2rem;
+            padding-bottom: 5rem;
+         }
+         form  {
+            margin-top: 2rem;
+            margin-left: 1.8rem;
+            background-color: whitesmoke;
+         }
+         input {
+            padding: 0.5rem 0.5rem;
+            border: none;
+            border-bottom: 2px solid black;
+            color: black;
+            font-size: medium;
+            font-weight: 500;
+            background-color: whitesmoke;
+         }
+         input:focus  {
+          background-color: lightblue;
+          border-bottom: 2px solid #555;
+         }
+      
+         button{
+            margin: 2rem;
+            padding:0.5rem 4rem;
+            background-color: black;
+            cursor: pointer;
+            color: whitesmoke;
+            border-radius: 20px;}
+
+            button a {
+                color: white;
+                text-decoration: none;
+            }
+
+         .footer  {
+            margin-top: 1rem;
+            margin-right: 1.8rem;
+         }
+         .footer p {
+            font-size: small;
+         }
+         .lagos {
+            margin-top: -1.5rem;
+            margin-left: -3.5rem;
+         }
+         .email {
+            margin-top: -3rem;
+            margin-bottom: 5rem;    
+         }
+         h3  {
+            word-spacing: 2px;
+         }
+         
+    </style>
+</head>
+<body>
+    <div class="contain">
+        <div class="firstpage">
+            <p>I would love to </p>
+            <p>hear from you.</p>
+            <p>..............</p>
+        </div>
+
+        <div class="secondpage">
+            <nav>  
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="aboutMe.html">ABOUT ME</a></li>
+                    <li><a href="service.html">SERVICES</a></li>
+                    <li><a href="project.html">PROJECTS</a></li>
+                                    </ul>
+            </nav>
+            <p><a>Contact Me<a></p>
+            <div class="secForm"> 
+                <div class="form"> 
+                    <form action="/talk.html">
+                        
+                        <input type="text" id="fname" name="fullname" placeholder="Full name"><br><br>
+                
+                        
+                        <input type="email" id="email" name="mailadd" placeholder="Email"><br><br>
+                
+                        <input type="text" id="message" name="message" placeholder="Message..."><br><br>
+                
+                        <button type="button"><a href="talk.html">Contact Me</a></button>
+                    </form>
+                </div>
+                <div class="footer">
+                    <h3 class="contact">Contact:</h3>
+                    <p class="email">egougwu11@yahoo.com</p>
+                    <h3>Based in:<h3>
+                    <p class="lagos"> Lagos, Nigeria</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
