@@ -26,18 +26,17 @@ body  {
   }
   
   h2{
-    margin-bottom: 1rem/* 16px */;
-  margin-bottom: 1rem;
-  padding-top: 2rem;
- 
-  text-align: center;
-  color: grey;
-  font-weight: 600;
+    margin-bottom: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    text-align: center;
+    color: grey;
+    font-weight: 600;
   }
   .labelclass  {
     margin-left: 1.75rem;
     margin-right: 1.75rem; 
-    margin-bottom: 1rem/* 16px */
+    margin-bottom: 1rem;
   }
   
   .email, .password {
@@ -57,8 +56,8 @@ body  {
     display: none;
     --tw-text-opacity: 1;
       color: rgb(239 68 68 / var(--tw-text-opacity));
-      font-size: 0.875rem/* 14px */;
-      line-height: 1.25rem/* 20px */;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
       font-style: italic;
   }
    
@@ -130,6 +129,6 @@ cursor: pointer;}
         margin-right: 24rem
     }
     .user {
-      padding-bottom: 2rem/* 32px */;
+      padding-bottom: 2rem;
   }
   }
